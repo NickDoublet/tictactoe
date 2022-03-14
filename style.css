@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@500;700&display=swap);
+
+:root {
+  --blue-primary: #31C3BD;
+  --blue-secondary: #65E9E4;
+  --blue-shadow: #118C87;
+  --yellow-primary: #F2B137;
+  --yellow-secondary: #FFC860;
+  --yellow-shadow: #CC8B13;
+  --dark-primary:#1A2A33;
+  --dark-secondary:#1F3641;
+  --dark-shadow:#10212A;
+  --light-primary:#A8BFC9;
+  --light-secondary:#DBE8ED;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: var(--dark-primary);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Landing page choose side container */
+.container {
+  width: 460px;
+  /* height: 471px; */
+  /* border: #DBE8ED 1px solid; */
+}
+
+.container-landing {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  margin: auto;
+  display: block;
+}
+
+.card-landing {
+  color: var(--light-primary);
+  background-color: var(--dark-secondary);
+  box-shadow: 0px 8px var(--dark-shadow);
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px;
+  border-radius: 15px;
+}
+
+.card-landing p:first-of-type {
+  margin: 24px;
+}
+
+.card-landing p:last-of-type {
+  opacity: 50%;
+  margin: 17px auto 30px;
+}
+
+.btn-xo-container {
+  background-color: var(--dark-primary);
+  border-radius: 10px;
+  width: 412px;
+}
+
+.btn-xo {
+  display: flex;
+  margin: 9px 8px;
+}
+.btn-x {
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-x img {
+  
+}
+
+.btn-o {
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-primary);
+}
+
+.btn-o img {
+
+}
+
+/* Landing page button container */
+.container-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-btn button:first-child {
+  margin-bottom: 20px;
+}
+
+.btn {
+  line-height: 25px;
+  font-size: 25px;
+  padding: 21px 0px;
+  border-radius: 15px;
+}
+
+.btn-yellow {
+  background-color: var(--yellow-primary);
+  box-shadow: 0px 8px var(--yellow-shadow);
+}
+
+.btn-blue {
+  background-color: var(--blue-primary);
+  box-shadow: 0px 8px var(--blue-shadow);
+}
