@@ -90,9 +90,9 @@ body {
 .btn-x {
   width: 50%;
   border-radius: 10px;
+  background-color: var(--dark-primary);
   display: flex;
   justify-content: center;
-  background-color: var(--dark-primary);
 }
 
 .btn-o {
@@ -101,10 +101,6 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--light-primary);
-}
-
-.btn-o img {
-
 }
 
 /* Landing page button container */
