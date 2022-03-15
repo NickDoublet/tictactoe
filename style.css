@@ -69,10 +69,6 @@ body {
 }
 
 /* Buttons */
-.btn {
-
-}
-
 .btn:hover {
   cursor: pointer;
 }
@@ -91,16 +87,14 @@ body {
   width: 50%;
   border-radius: 10px;
   background-color: var(--dark-primary);
-  display: flex;
-  justify-content: center;
+  height: 54px;
 }
 
 .btn-o {
   width: 50%;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
   background-color: var(--light-primary);
+  height: 54px;
 }
 
 /* Landing page button container */
