@@ -68,6 +68,15 @@ body {
   margin: 17px auto 30px;
 }
 
+/* Buttons */
+.btn {
+
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-xo-container {
   background-color: var(--dark-primary);
   border-radius: 10px;
@@ -83,10 +92,7 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-}
-
-.btn-x img {
-  
+  background-color: var(--dark-primary);
 }
 
 .btn-o {
@@ -111,7 +117,7 @@ body {
   margin-bottom: 20px;
 }
 
-.btn {
+.btn-ng {
   line-height: 25px;
   font-size: 25px;
   padding: 21px 0px;
