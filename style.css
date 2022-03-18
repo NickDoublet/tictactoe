@@ -12,6 +12,7 @@
   --dark-shadow:#10212A;
   --light-primary:#A8BFC9;
   --light-secondary:#DBE8ED;
+  --light-shadow: #6B8997;
 }
 
 * {
@@ -37,14 +38,9 @@ body {
   /* border: #DBE8ED 1px solid; */
 }
 
-.container-landing {
+.logo-container {
   display: flex;
   justify-content: center;
-}
-
-#logo {
-  margin: auto;
-  display: block;
 }
 
 .card-landing {
@@ -122,4 +118,91 @@ body {
 .btn-blue {
   background-color: var(--blue-primary);
   box-shadow: 0px 8px var(--blue-shadow);
+}
+
+/* Gamestart page */
+
+.container-gs {
+  display: flex;
+  flex-direction: column;
+  height: 623px;
+}
+
+.game-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.logo {
+  width: 72px;
+  height: 32px;
+}
+
+.turn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 52px;
+  color: var(--light-primary);
+  background-color: var(--dark-secondary);
+  border-radius: 10px;
+  box-shadow: 0px 4px var(--dark-shadow);
+}
+
+.turn p {
+  margin-left: 8px;
+}
+
+.restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  background-color: var(--light-primary);
+  border-radius: 10px;
+  box-shadow: 0px 4px var(--light-shadow);
+}
+
+.tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tiles-grid div {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  background-color: var(--dark-secondary);
+  box-shadow: 0px 8px var(--dark-shadow);
+}
+
+.scores {
+  margin-top: 19px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.scores div {
+  height: 72px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blue-pri {
+  background-color: var(--blue-primary);
+}
+.light-pri {
+  background-color: var(--light-primary);
+}
+.yellow-pri {
+  background-color: var(--yellow-primary);
 }
